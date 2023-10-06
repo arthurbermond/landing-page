@@ -1,0 +1,242 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+body{
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;    
+}
+
+
+.title {
+    font-size: 38px;
+    color: #f5fdf9;
+    font-family: 'Courier New', Courier, monospace;
+    border: #00ff7f;
+    margin-bottom: 20px;
+    display: inline;
+    line-height: 1.5;
+    background-color: #00ff7f;
+   
+   
+}
+
+.list-item {
+margin-bottom: 24px;
+font-size: 4px;
+}
+
+input {
+    height: 33px;
+    background-color: transparent;
+    color:#ffffff;
+    border-color: #00ff7f;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.add-task-button {
+font-size: 20px;
+padding: 16px;
+background-color: #29b629;
+border-width: 0px;
+border-radius: 4px;
+color: #ffffff;
+font-weight: bold;
+font-family: monospace;
+line-height: 2,5%;
+margin: 90px;
+display: flex;
+justify-content: center;
+
+}
+
+#dov {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #e9e6e6;
+    font-size:20px;
+}
+
+.cabecalho {
+    background-color: #464242;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+
+
+.espacamento__cabecalho{
+margin: 5px 5px;
+padding: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: inline;
+line-height: 1.5;
+background-color: #3d3d3d;
+    }
+   
+.queme {
+        display: inline;
+    line-height: 2.5;
+    background-color: #00ff7f;
+    font-size: 30px;
+    margin-top: 20px;
+    }
+ .sobre_mim {
+        margin: 30%;
+        line-height: 2.5;
+        font-size: 20px;
+        background-color: #0c0c0c;
+        padding: 0%;
+        margin: 0%;
+        margin-top: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+       
+    .sobre__mim {
+            display: inline;
+        line-height: 2.5;
+        background-color: #00ff7f;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+.sobremim {
+      margin: 30%;
+      line-height: 2;
+      font-size: 20px;
+      padding: 0%;
+      margin: 0%;
+      text-align: left;
+      margin-top: 10px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+ .fotominha {
+       width: 300px;
+       margin-left: 5%;
+       margin-top: 20px;
+      
+        
+    }
+ .container {
+    display: flex;
+    align-items: center;
+   }
+   .musica {
+    margin-top: 10px;
+   }
+   .trafego {
+    margin: 30%;
+        line-height: 2.5;
+        font-size: 22px;
+        padding: 0%;
+        margin: 0%;
+        margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+        
+    .title01 {
+        line-height: 3.5;
+        font-size: 38px;
+    color: #f5fdf9;
+    font-family: 'Courier New', Courier, monospace;
+    border: #00ff7f;
+    margin-bottom: 20px;
+    display: inline;
+    background-color: #00ff7f;
+    }
+   .redessociais{
+    border-top: 30px solid blue;
+    border-left: 30px solid red;
+   
+   } 
+  :root {
+    color: #ffffff;
+    color: red;
+    color: #181818;
+    color: #1e1e1e;
+    color: #9333ff;
+    color: indigo;
+  }
+
+  .formulario1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .contentt {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 10%;
+    min-width: 30%;
+    overflow: auto;
+    text-align: center;
+  }
+  .contentt form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .span-required{
+    display: none;
+  }
+  .inputes{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #181818;
+    border: 2px solid var(#181818);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .inputes:focus {
+    border-color: #9333ff;
+  }
+  .box-select{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    gap: 1rem;
+  }
+  button[type="submit"] {
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #9333ff;
+    cursor: pointer;
+  }
+
+  .espacamento__ {
+  margin: 5px 5px;
+padding: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: inline;
+line-height: 1.5;
+background-color: #0f077e;
+display: flex;
+justify-content: center;}
+
+   
+  @media (max-width:1300px) {
+    .cabecalho {padding: auto;
+    }
+    .espacamento__cabecalho {
+      font-size: 10px;
+    }
+    .dov {width: auto;}
+  }
